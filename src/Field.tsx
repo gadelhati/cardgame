@@ -4,8 +4,9 @@ import { Card } from './Card'
 export const Field = () => {
     return (
         <nav className="field">
-            <Card />
-            <Card />
+            <div style={{position: 'absolute'}}><Card /></div>
+            <div><Card /></div>
+            <div><Card /></div>
         </nav>
     )
 }

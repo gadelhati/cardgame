@@ -6,7 +6,7 @@
     padding: var(--space-one);
     width: 6rem;
     height: 9rem;
-    background-color: #fff;
+    background-color: var(--color-six);
     border-radius: var(--space-one);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     color: var(--color-two);
-    background-color: var(--color-three);
+    background-color: var(--color-four);
 }
 
 .card header {
@@ -52,7 +52,7 @@
 
 .card .text {
     flex: 1;
-    color: green;
+    color: var(--space-one);
     background-color: rgba(0, 0, 120, 0.5);;
     /* backdrop-filter: blur(10px); */
     align-content: flex-end;

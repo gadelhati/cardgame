@@ -9,7 +9,8 @@ function App() {
 		<main>	
 			<Campo />
 			<center>
-				123
+				<Campo />
+				<Campo />
 			</center>
 			<Campo />
 		</main>

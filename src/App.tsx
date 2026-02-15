@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import { Campo } from './Campo'
+import { Field } from './Field'
 import { Card } from './Card'
 
 function App() {
 	const [state, setState] = useState([Card])
 	return (
 		<main>	
-			<Campo />
+			<Field />
 			<center>
-				<Campo />
-				<Campo />
+				<Field />
+				<Field />
 			</center>
-			<Campo />
+			<Field />
 		</main>
 	)
 }

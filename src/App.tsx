@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import { Bar } from './Bar'
+import { Campo } from './Campo'
 import { Card } from './Card'
 
 function App() {
 	const [state, setState] = useState([Card])
 	return (
 		<main>	
-			<Bar />
+			<Campo />
 			<center>
 				123
 			</center>
-			<Bar />
+			<Campo />
 		</main>
 	)
 }

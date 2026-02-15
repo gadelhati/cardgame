@@ -1,6 +1,6 @@
 @import './global.css';
 
-.bar {
+.campo {
     display: flex;
     flex-direction: row;
     gap: var(--space-one);

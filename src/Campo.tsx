@@ -1,9 +1,9 @@
-import './Bar.css'
+import './Campo.css'
 import { Card } from './Card'
 
-export const Bar = () => {
+export const Campo = () => {
     return (
-        <nav className="bar">
+        <nav className="campo">
             <Card />
             <Card />
         </nav>

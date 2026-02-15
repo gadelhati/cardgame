@@ -1,0 +1,57 @@
+@import './global.css';
+
+.card {
+    font-size: var(--font-size-three);
+    padding: var(--space-one);
+    width: 6rem;
+    height: 9rem;
+    background-color: #fff;
+    border-radius: var(--space-one);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > * {
+    width: 100%;
+    z-index: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card > * > * {
+    padding: var(--space-one);
+}
+
+.card header, .card footer {
+    height: var(--space-six);
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-two);
+    background-color: var(--color-three);
+}
+
+.card header {
+    border-radius: var(--space-one) var(--space-one) 0 0;
+}
+
+.card footer {
+    border-radius: 0 0 var(--space-one) var(--space-one);
+}
+
+.card img {
+    position: absolute;
+    width: var(--space-six);
+    width: 12rem;
+    z-index: 0;
+}
+
+.card .text {
+    height: 100%;
+    color: green;
+    background-color: rgba(0, 0, 120, 0.5);;
+    /* backdrop-filter: blur(10px); */
+    align-content: flex-end;
+}

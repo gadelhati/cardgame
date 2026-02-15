@@ -1,0 +1,10 @@
+@import './global.css';
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-one);
+    background-color: lightblue;
+    border-radius: .25rem;
+    padding: .5rem;
+}

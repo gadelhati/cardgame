@@ -1,14 +1,15 @@
 import './Card.css'
 import imageFront from './assets/cardFront.png'
 import imageBack from './assets/cardBack.png'
+import type { ButtonHTMLAttributes } from 'react'
 
-export const Card = () => {
+export const Card: React.FC<ButtonHTMLAttributes<HTMLDivElement>> = ({ ...props}) => {
     const dragstart = (e: React.DragEvent<HTMLDivElement>) => {
 		const target = e.currentTarget as HTMLDivElement
 		e.dataTransfer.setData('card-id', target.id)
 	}
     return (
-        <div id={'card-id'} className='card' draggable={true} onDragStart={dragstart}>
+        <div {...props} id={'card-id'} className='card' draggable={true} onDragStart={dragstart}>
             <article className='front'>
                 <img src={imageFront} alt='Card front image' />
                 <header>

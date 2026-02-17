@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
-import { Field } from './Field'
 import { Card } from './Card'
+import { Field } from './Field'
 
 function App() {
-	const [state, setState] = useState([Card])
 	return (
-		<main>	
+		<main>
+			<Card />
 			<Field />
 			<center>
 				<Field />

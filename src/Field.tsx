@@ -1,28 +1,28 @@
 import './Field.css'
-import { Card } from './Card'
+import { Card, type CardProps } from './Card'
 
 interface FieldProps {
     id: string
-    cards: string[]
+    cards: CardProps[]
     onCardDrop: (cardId: string, toFieldId: string) => void
 }
 
-export const Field = ({ id, cards, onCardDrop }: FieldProps) => {
+export const Field = (fieldProps: FieldProps) => {
     const dragover = (e: React.DragEvent<HTMLDivElement>) => {
         e.preventDefault()
     }
     const dragdrop = (e: React.DragEvent<HTMLDivElement>) => {
         e.preventDefault()
         const card_id = e.dataTransfer.getData('card-id')
-        onCardDrop(card_id, id)
+        if (card_id) {
+            fieldProps.onCardDrop(card_id, fieldProps.id)
+        }
     }
     return (
-        <div id={id} className="field" onDragOver={dragover} onDrop={dragdrop}>
-            {cards.length === 0 && <div className='placeholder'><div>{cards.length}</div></div>}
-            {cards.map(cardId => <Card key={cardId} id={cardId} />)}
-            <div>{cards.length}</div>
+        <div id={fieldProps.id} className="field" onDragOver={dragover} onDrop={dragdrop}>
+            {fieldProps.cards.map(card => <Card key={card.id} id={card.id} name={card.name} cost={card.cost} atk={card.atk} def={card.def} />)}
+            <div>{fieldProps.cards.length}</div>
             {/* <div style={{position: 'absolute'}}><Card /></div>
-            <div><Card /></div>
             <div><Card /></div> */}
         </div>
     )

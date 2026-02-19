@@ -1,37 +1,48 @@
 import { useState } from 'react'
 import './App.css'
-import { Card } from './Card'
+import { type CardProps } from './Card'
 import { Field } from './Field'
 
+const initialCard: CardProps = {
+	id: '001',
+	name: 'Title',
+	cost: 3,
+	atk: 2,
+	def: 1
+}
+
 function App() {
-	const [fields, setFields] = useState<Record<string, string[]>>({
+	const [fields, setFields] = useState<Record<string, CardProps[]>>({
+		'player-1': [initialCard],
 		'field-1': [],
 		'field-2': [],
-		'field-3': [],
-		'field-4': []
+		'player-2': []
 	})
 	const moveCard = (cardId: string, toFieldId: string) => {
-		
 		setFields(prev => {
             const updated = { ...prev }
+			let card: CardProps | undefined
             // Remove the card from all fields
             for (const key in updated) {
-                updated[key] = updated[key].filter(id => id !== cardId)
+                const found = updated[key].find(c => c.id === cardId)
+				if (found) card = found
+				updated[key] = updated[key].filter(c => c.id !== cardId)
             }
             // Add to destination field
-            updated[toFieldId] = [...updated[toFieldId], cardId]
+			if (card) {
+            	updated[toFieldId] = [...updated[toFieldId], card]
+			}
             return updated
         })
 	}
 	return (
 		<main>
-			<Card />
-			<Field id="field-1" cards={fields['field-1']} onCardDrop={moveCard} />
+			<Field id="player-1" cards={fields['player-1']} onCardDrop={moveCard} />
             <center>
+                <Field id="field-1" cards={fields['field-1']} onCardDrop={moveCard} />
                 <Field id="field-2" cards={fields['field-2']} onCardDrop={moveCard} />
-                <Field id="field-3" cards={fields['field-3']} onCardDrop={moveCard} />
             </center>
-            <Field id="field-4" cards={fields['field-4']} onCardDrop={moveCard} />
+            <Field id="player-2" cards={fields['player-2']} onCardDrop={moveCard} />
 		</main>
 	)
 }

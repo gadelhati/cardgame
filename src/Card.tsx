@@ -21,7 +21,6 @@ export const Card: React.FC<CardProps> = (cardProps: CardProps) => {
                 <img src={imageFront} alt='Card front image' />
                 <header>
                     <div>{cardProps.name}</div>
-                    <div>{cardProps.name}</div>
                     <div>{cardProps.cost}</div>
                 </header>
                 <div className='text'>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est q...</div>

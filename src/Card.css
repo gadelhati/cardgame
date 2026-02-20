@@ -66,4 +66,5 @@
 }
 .card:hover {
     transform: rotateY(180deg);
+    cursor: pointer;
 }

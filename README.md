@@ -1,5 +1,7 @@
 # 🃏 _Card Game_
 
+![Alt Card 001](https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card.png "Card 001")
+
 ## 1. Card Interaction & Turn System
 
 ### 1.1. Card Movement
@@ -36,7 +38,8 @@ The rarity may change depending on the final power defined.
 ### 2.2. Top Section
 - Top-left: Resource cost, visually coded with the color associated with the card’s rarity tier.
     - The cost is the primary balancing parameter and may be adjusted through buffs or nerfs..
-- Top-right: Combat statistics displayed as ATK / DEF
+- Top-center: The number of stars that represent its power.
+- Top-right: Combat statistics displayed as number representing the attack and number representing the defender (separated by slash /)
 
 ### 2.3. Artwork Layout
     The illustration occupies the entire card background and uses a four-layer parallax composition:

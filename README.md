@@ -1,6 +1,6 @@
 # 🃏 _Card Game_
 
-![Alt Card 001](https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card.png "Card 001")
+<img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card-vector.png' alt='Card front image" style="display: block; margin: 0 auto; width: 350px;" />
 
 ## 1. Card Interaction & Turn System
 

@@ -1,4 +1,4 @@
-# _Card Game_
+# 🃏 _Card Game_
 
 ## 1. Card Interaction & Turn System
 

@@ -3,16 +3,33 @@
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card-vector.png" width="250"/></p>
 
 ## Archetype List
-    🔴 Red: Aggressive, fast impact, high risk, high reward.
-        - low cost
-    🔵 Blue: Control, tactical tempo control and disruption.
-        - moviment effect (relocate cards between fields).
-    🟢 Green: Power Growth, scaling strength and battlefield dominance.
-        - High base power and increase in power effect.
-    🟡 Yellow: Order, defensive structure and longevity.
-        - Health increase effect/recovery effect.
-    🟣⚫ Purple|Black: Corruption, drains, penalties, and strategic loss for gain.
-        - Life reduction effect.
+🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
+- constant pressure
+- low cost
+- dano direto
+- destruição
+
+🔵 Blue: **Control**. Tactical tempo control and disruption.
+- draw cards
+- see the top of the deck
+- delay the opponent
+- moviment effect (relocate cards between fields).
+- evasion
+- annulment
+- game rhythm
+
+🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
+- accelerate resource savings
+- high base power
+- increase in power
+
+🟡 Yellow: **Order**. Defensive structure and longevity.
+- health increase
+- recovery effect
+
+🟣⚫ Purple|Black: **Egocentrism**. Corruption, drains, penalties, and strategic loss for gain
+- Life reduction effect
+- Self sacrifices
 
 ## 1. Card Interaction & Turn System
 

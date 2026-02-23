@@ -1,6 +1,7 @@
 import './Card.css'
 import imageFront from './assets/cardFront.png'
 import imageBack from './assets/cardBack.png'
+import type { JSX } from 'react'
 
 export interface CardProps {
     id: string
@@ -10,8 +11,8 @@ export interface CardProps {
     def?: number
 }
 
-export const Card: React.FC<CardProps> = ({ id, name, cost, atk, def }: CardProps) => {
-    const dragstart = (e: React.DragEvent<HTMLDivElement>) => {
+export const Card: React.FC<CardProps> = ({ id, name, cost, atk, def }: CardProps): JSX.Element => {
+    const dragstart = (e: React.DragEvent<HTMLDivElement>): void => {
 		const target = e.currentTarget as HTMLDivElement
 		e.dataTransfer.setData('card-id', target.id)
 	}

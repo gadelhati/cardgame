@@ -1,17 +1,18 @@
 import './Field.css'
 import { Card, type CardProps } from './Card'
+import type { JSX } from 'react'
 
 interface FieldProps {
     id: string
     cards: CardProps[]
-    onCardDrop: (cardId: string, toFieldId: string) => void
+    onCardDrop: (_cardId: string, _toFieldId: string) => void
 }
 
-export const Field = ({ id, cards, onCardDrop }: FieldProps) => {
-    const dragover = (e: React.DragEvent<HTMLDivElement>) => {
+export const Field = ({ id, cards, onCardDrop }: FieldProps): JSX.Element => {
+    const dragover = (e: React.DragEvent<HTMLDivElement>): void => {
         e.preventDefault()
     }
-    const dragdrop = (e: React.DragEvent<HTMLDivElement>) => {
+    const dragdrop = (e: React.DragEvent<HTMLDivElement>): void => {
         e.preventDefault()
         const card_id = e.dataTransfer.getData('card-id')
         if (card_id) {

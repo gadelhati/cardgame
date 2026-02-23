@@ -29,6 +29,13 @@ If a card has an effect, the effect must explicitly define: [ _Origin_ | *_Desti
 The archetype and power of the card will be defined after its creation. The archetype is based on your personality and purpose, while the power is based on its weight in combat and potential impact.
 The rarity may change depending on the final power defined.
 
+### Card Versions
+    Normal colors
+    Inverted colors
+    Night version
+    Draft version
+    Monochrome version(following the archetype color)
+
 ### 2.1. Border
     The card features a clean outer border (padding) colored according to its archetype.
     

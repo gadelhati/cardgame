@@ -49,6 +49,7 @@ The rarity may change depending on the final power defined.
     Monochrome version(following the archetype color)
 
 ### 2.1. Border
+    The card features a clean outer border (margin) colored in black.
     The card features a clean outer border (padding) colored according to its archetype.
     
 - Archetype Color (e.g., blue, green, etc.): The archetype's color changes during card creation and becomes fixed once published. After, it may be adjusted in response to balance updates (buffs or nerfs)

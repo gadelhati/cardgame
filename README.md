@@ -3,33 +3,34 @@
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card-vector.png" width="250"/></p>
 
 ## Archetype List
+> [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
+
 🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
-- constant pressure
-- low cost
-- dano direto
-- destruição
+> constant pressure, spend savings
+
+- cause: low life and defense
+- effect: low cost, destruiction, direct damage, run over, force or prevent from attacking or defending, damage to multiple targets(NOT ALL).
 
 🔵 Blue: **Control**. Tactical tempo control and disruption.
-- draw cards
-- see the top of the deck
-- delay the opponent
-- moviment effect (relocate cards between fields).
-- evasion
-- annulment
-- game rhythm
+> PAZ, EQUILÍBRIO, FRIO, SOLIDÃO, DEPRESSÃO, ISOLAMENTO
+
+- cause: ?
+- effect: evasion( _fly_ ), see the top of the deck, moviment effect (relocate cards between fields)
+    [ _annulment_ | _draw cards_ | _delay the opponent_ ]
 
 🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
-- accelerate resource savings
-- high base power
-- increase in power
+- cause: _***LATE GAME***_
+- effect: accelerate resource savings(increase in power, search the deck), high base power
 
-🟡 Yellow: **Order**. Defensive structure and longevity.
-- health increase
-- recovery effect
+🟡 Yellow: **Order**. Collective harmony, balance, and stability.
+- cause: trigger.
+- effect: global effects, protection, health increase, recovery effect, clean effect.
 
-🟣⚫ Purple|Black: **Egocentrism**. Corruption, drains, penalties, and strategic loss for gain
-- Life reduction effect
-- Self sacrifices
+🟣 Purple: **Egocentrism**. Corruption, ambition and strategic loss for gain.
+> Manipulação de recursos: imita outros arquétipos.
+
+- cause: life reduction, self sacrifices
+- effect: remove card, eliminate, return from the trash, debuf, drains
 
 ## 1. Card Interaction & Turn System
 

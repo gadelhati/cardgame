@@ -3,34 +3,37 @@
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card-vector.png" width="250"/></p>
 
 ## Archetype List
-> [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
+[ _AGGRO_ | _CONTROL_ | _COMBO_ ]
 
 🟡 Yellow: **Order**. Collective harmony, balance, and stability.
-- cause: trigger.
+> Global equilibrium
+- cause: trigger, live abouve X, intact cards.
 - effect: global effects, protection, health increase, recovery effect, clean effect.
 
 🔵 Blue: **Control**. Tactical tempo control and disruption.
-> Paz, Equilibrio, Frio, Solidão, Depressão, Isolamento
+> **Manipulate resolution order**
 
-- cause: ?
-- effect: evasion( _fly_ ), see the top of the deck, moviment effect (relocate cards between fields)
+- cause: change field
+- effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)
     [ _annulment_ | _draw cards_ | _delay the opponent_ ]
 
 🟣 Purple: **Egocentrism**. Corruption, ambition and strategic loss for gain.
-> Manipulação de recursos: imita outros arquétipos.
+> Resource manipulation
 
-- cause: life reduction, self sacrifices
-- effect: remove card, eliminate, return from the trash, debuf, drains
+- cause: self sacrifices(life reduction, discard), cards accumulated in the trash
+- effect: remove card, eliminate, return from the trash, debuf, drains, transform debuff into buff, copy effect
 
 🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
-> constant pressure, spend savings
+> Effect that scales according to risk
 
-- cause: low life and defense
+- cause: low life and defense, constant pressure, spend savings
 - effect: low cost, destruiction, direct damage, run over, force or prevent from attacking or defending, damage to multiple targets(NOT ALL).
 
 🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
-- cause: _***LATE GAME***_
-- effect: accelerate resource savings(increase in power, search the deck), high base power
+> Effect that scales as it saves.
+
+- cause: accumulated turns, saved resources, cards accumulated in the hand, turn number
+- effect: accelerate resource savings(progressive scaling, search the deck), high base power, time conversion into power
 
 ## 1. Card Interaction & Turn System
 

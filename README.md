@@ -62,6 +62,7 @@ The rarity may change depending on the final power defined.
     Normal colors
     Inverted colors
     Night version
+    Neon version
     Draft version
     Monochrome version(following the archetype color)
 

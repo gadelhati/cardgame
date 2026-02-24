@@ -5,32 +5,38 @@
 ## Archetype List
 [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
 
-🟡 Yellow: **Order**. Collective harmony, balance, and stability.
-> Global equilibrium
-- cause: trigger, live abouve X, intact cards.
-- effect: global effects, protection, health increase, recovery effect, clean effect.
-
-🔵 Blue: **Control**. Tactical tempo control and disruption.
+🔵>🟠 Blue: **Control**. Tactical tempo control and disruption.
 > **Manipulate resolution order**
 
 - cause: change field
 - effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)
     [ _annulment_ | _draw cards_ | _delay the opponent_ ]
 
-🟣 Purple: **Egocentrism**. Corruption, ambition and strategic loss for gain.
+🟣>🟡 Violet: **Egocentrism**. Corruption, ambition and strategic loss for gain.
 > Resource manipulation
 
 - cause: self sacrifices(life reduction, discard), cards accumulated in the trash
 - effect: remove card, eliminate, return from the trash, debuf, drains, transform debuff into buff, copy effect
 
-🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
+🔴>🟢 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
 > Effect that scales according to risk
 
 - cause: low life and defense, constant pressure, spend savings
 - effect: low cost, destruiction, direct damage, run over, force or prevent from attacking or defending, damage to multiple targets(NOT ALL).
 
-🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
-> Effect that scales as it saves.
+🟠>🔵 Orange: **Entusiasmo**
+> Collective mobilization
+
+- cause: collective presence, on play, trait synergy
+- effect: simultaneous activation, sharing of resources, resource conversion, ripple effect
+
+🟡>🟣 Yellow: **Order**. Collective harmony, balance, and stability.
+> Global equilibrium
+- cause: trigger, live abouve X, intact cards.
+- effect: global effects, protection, health increase, recovery effect, clean effect.
+
+🟢>🔴 Green: **Brute force**. Power Growth, scaling strength and resource generation.
+> Effect that scales as it saves
 
 - cause: accumulated turns, saved resources, cards accumulated in the hand, turn number
 - effect: accelerate resource savings(progressive scaling, search the deck), high base power, time conversion into power

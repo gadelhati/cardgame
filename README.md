@@ -14,6 +14,7 @@
 
 ### Complementary colors
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/complementaryColors.png" width="250"/></p>
+
 |**Cool**   |vs|   **Warm**| Emotional state vs Emotional state|
 |:----------|--|:----------|:--------------------------------|
 |🟣 Violet  |vs| 🟡 Yellow| Ambition    vs  Balance         |

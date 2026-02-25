@@ -27,7 +27,9 @@
 [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
 
 🔵 Blue: **Control**. Tactical tempo control and disruption.
-> **Manipulate resolution order**
+>[!NOTE]
+>
+>**Manipulate resolution order**
 
 - cause: change field, state change
 - effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)

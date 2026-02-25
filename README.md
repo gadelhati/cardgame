@@ -6,7 +6,7 @@
 ### Emotional state
 
     🟣 Ambition: converts loss of `resource` into gain
-    🔵 Isolation: manipulates the flow of time
+    🔵 Isolation: manipulates the flow of `time`
     🟢 Persistence: converts `time` into power
     🟡 Harmony: balances `resources`
     🟠 Inspired: share `resources`

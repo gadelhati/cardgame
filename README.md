@@ -1,41 +1,62 @@
 # 🃏 _Card Game_
 
-<p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/card-vector.png" width="250"/></p>
+<p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/cardVector.png" width="250"/></p>
 
 ## Archetype List
+### Emotional state
+
+    🟣 Ambition: converts loss of `resource` into gain
+    🔵 Isolation: manipulates the flow of time
+    🟢 Persistence: converts `time` into power
+    🟡 Harmony: balances `resources`
+    🟠 Inspired: share `resources`
+    🔴 Unstable: Acelera risco
+
+### Complementary colors
+    Cool           Warm
+    🟣 Violet   > 🟡 Yellow     Ambition    vs  Balance
+    🔵 Blue     > 🟠 Orange     Isolation   vs  Collective
+    🟢 Green    > 🔴 Red        Progression vs  Explosion
+    ___________________________________________________________________
+
+    Warm           Cool
+    🟡 Yellow   > 🟣 Violet     Balance     vs  Ambition
+    🟠 Orange   > 🔵 Blue       Collective  vs  Isolation
+    🔴 Red      > 🟢 Green      Explosion   vs  Progression
+
 [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
 
-🔵>🟠 Blue: **Control**. Tactical tempo control and disruption.
+🔵 Blue: **Control**. Tactical tempo control and disruption.
 > **Manipulate resolution order**
 
-- cause: change field
+- cause: change field, state change
 - effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)
     [ _annulment_ | _draw cards_ | _delay the opponent_ ]
 
-🟣>🟡 Violet: **Egocentrism**. Corruption, ambition and strategic loss for gain.
+🟣 Violet: **Egocentrism**. Corruption, ambition and strategic loss for gain.
 > Resource manipulation
 
 - cause: self sacrifices(life reduction, discard), cards accumulated in the trash
 - effect: remove card, eliminate, return from the trash, debuf, drains, transform debuff into buff, copy effect
 
-🔴>🟢 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
+🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
 > Effect that scales according to risk
 
 - cause: low life and defense, constant pressure, spend savings
 - effect: low cost, destruiction, direct damage, run over, force or prevent from attacking or defending, damage to multiple targets(NOT ALL).
 
-🟠>🔵 Orange: **Entusiasmo**
+🟠 Orange: **Entusiasmo**
 > Collective mobilization
 
-- cause: collective presence, on play, trait synergy
+- cause: collective presence, on play in group, trait synergy
 - effect: simultaneous activation, sharing of resources, resource conversion, ripple effect
 
-🟡>🟣 Yellow: **Order**. Collective harmony, balance, and stability.
+🟡 Yellow: **Order**. Balance and stability.
 > Global equilibrium
 - cause: trigger, live abouve X, intact cards.
 - effect: global effects, protection, health increase, recovery effect, clean effect.
 
-🟢>🔴 Green: **Brute force**. Power Growth, scaling strength and resource generation.
+🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
 > Effect that scales as it saves
 
 - cause: accumulated turns, saved resources, cards accumulated in the hand, turn number

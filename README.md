@@ -13,16 +13,17 @@
     🔴 Unstable: Acelera risco
 
 ### Complementary colors
-    Cool           Warm
-    🟣 Violet   > 🟡 Yellow     Ambition    vs  Balance
-    🔵 Blue     > 🟠 Orange     Isolation   vs  Collective
-    🟢 Green    > 🔴 Red        Progression vs  Explosion
-    ___________________________________________________________________
+|Cool       |vs|       Warm| Emotional state vs Emotional state|
+|:----------|--|:----------|:--------------------------------|
+|🟣 Violet  |vs| 🟡 Yellow| Ambition    vs  Balance         |
+|🔵 Blue    |vs| 🟠 Orange| Isolation   vs  Collective      |
+|🟢 Green   |vs| 🔴 Red   | Progression vs  Explosion       |
 
-    Warm           Cool
-    🟡 Yellow   > 🟣 Violet     Balance     vs  Ambition
-    🟠 Orange   > 🔵 Blue       Collective  vs  Isolation
-    🔴 Red      > 🟢 Green      Explosion   vs  Progression
+|Warm       |vs|       Cool| Emotional state vs Emotional state|
+|:----------|--|:----------|:--------------------------------|
+|🟡 Yellow  |vs| 🟣 Violet| Ambition    vs  Balance         |
+|🟠 Orange  |vs|   🔵 Blue| Isolation   vs  Collective      |
+|🔴 Red     |vs|  🟢 Green| Progression vs  Explosion       |
 
 [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
 

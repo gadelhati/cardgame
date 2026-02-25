@@ -13,13 +13,14 @@
     🔴 Unstable: Acelera risco
 
 ### Complementary colors
-|Cool       |vs|       Warm| Emotional state vs Emotional state| img |
-|:----------|--|:----------|:--------------------------------| <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/cardVector.png" width="250"/></p>|
+<p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/complementaryColors.png" width="250"/></p>
+|**Cool**   |vs|   **Warm**| Emotional state vs Emotional state|
+|:----------|--|:----------|:--------------------------------|
 |🟣 Violet  |vs| 🟡 Yellow| Ambition    vs  Balance         |
 |🔵 Blue    |vs| 🟠 Orange| Isolation   vs  Collective      |
 |🟢 Green   |vs| 🔴 Red   | Progression vs  Explosion       |
 
-|Warm       |vs|       Cool| Emotional state vs Emotional state|
+|**Warm**   |vs|   **Cool**| Emotional state vs Emotional state|
 |:----------|--|:----------|:--------------------------------|
 |🟡 Yellow  |vs| 🟣 Violet| Ambition    vs  Balance         |
 |🟠 Orange  |vs|   🔵 Blue| Isolation   vs  Collective      |

@@ -2,17 +2,13 @@
 
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/cardVector.png" width="250"/></p>
 
-## Archetype List
-### Emotional state
+## 1. Win Condition
+At the end of each round, the player who dominates the terrain wins.
+The game ends when one of the players runs out of life points or their deck.
 
-    🟣 Ambition: converts loss of `resource` into gain
-    🔵 Isolation: manipulates the flow of `time`
-    🟢 Persistence: converts `time` into power
-    🟡 Harmony: balances `resources`
-    🟠 Inspired: share `resources`
-    🔴 Unstable: Acelera risco
+## 2. Archetype List
 
-### Complementary colors
+### 2.1. Complementary colors
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/complementaryColors.png" width="250"/></p>
 
 |**Cool**   |vs|   **Warm**| Emotional state vs Emotional state|
@@ -27,7 +23,21 @@
 |🟠 Orange  |vs|   🔵 Blue| Isolation   vs  Collective      |
 |🔴 Red     |vs|  🟢 Green| Progression vs  Explosion       |
 
+### 2.2. Emotional state
 [ _AGGRO_ | _CONTROL_ | _COMBO_ ]
+
+    🟣 Ambition: converts loss of `resource` into gain
+    🔵 Isolation: manipulates the flow of `time`
+    🟢 Persistence: converts `time` into power
+    🟡 Harmony: balances `resources`
+    🟠 Inspired: share `resources`
+    🔴 Unstable: Acelera risco
+
+🟣 Violet: **Egocentrism**. Corruption, ambition and strategic loss for gain.
+> Resource manipulation
+
+- cause: self sacrifices(life reduction, discard), cards accumulated in the trash
+- effect: remove card, eliminate, return from the trash, debuf, drains, transform debuff into buff, copy effect
 
 🔵 Blue: **Control**. Tactical tempo control and disruption.
 >[!NOTE]
@@ -38,11 +48,22 @@
 - effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)
     [ _annulment_ | _draw cards_ | _delay the opponent_ ]
 
-🟣 Violet: **Egocentrism**. Corruption, ambition and strategic loss for gain.
-> Resource manipulation
+🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
+> Effect that scales as it saves
 
-- cause: self sacrifices(life reduction, discard), cards accumulated in the trash
-- effect: remove card, eliminate, return from the trash, debuf, drains, transform debuff into buff, copy effect
+- cause: accumulated turns, saved resources, cards accumulated in the hand, turn number
+- effect: accelerate resource savings(progressive scaling, search the deck), high base power, time conversion into power
+
+🟡 Yellow: **Order**. Balance and stability.
+> Global equilibrium
+- cause: trigger, live abouve X, intact cards.
+- effect: global effects, protection, health increase, recovery effect, clean effect.
+
+🟠 Orange: **Enthusiasm**. Collective, inspiring and contagious. Grows stronger the more allies are present.
+> Effect that scales with the number of allies on the field
+
+- cause: number of allies on the field, on play in group, entering play alongside another card, trait synergy
+- effect: simultaneous activation, sharing of resources(buff allies on the field, distribute resources among multiple targets), activate a secondary effect on another card already in play, resource conversion, ripple effect
 
 🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
 > Effect that scales according to risk
@@ -50,27 +71,13 @@
 - cause: low life and defense, constant pressure, spend savings
 - effect: low cost, destruiction, direct damage, run over, force or prevent from attacking or defending, damage to multiple targets(NOT ALL).
 
-🟠 Orange: **Entusiasmo**
-> Collective mobilization
-
-- cause: collective presence, on play in group, trait synergy
-- effect: simultaneous activation, sharing of resources, resource conversion, ripple effect
-
-🟡 Yellow: **Order**. Balance and stability.
-> Global equilibrium
-- cause: trigger, live abouve X, intact cards.
-- effect: global effects, protection, health increase, recovery effect, clean effect.
-
-🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
-> Effect that scales as it saves
-
-- cause: accumulated turns, saved resources, cards accumulated in the hand, turn number
-- effect: accelerate resource savings(progressive scaling, search the deck), high base power, time conversion into power
-
 ## 1. Card Interaction & Turn System
 
 ### 1.1. Card Movement
 - Each player drags one card at a time
+- I play this card on the pile now or save it for another opportunity?
+- Do I advocate for the offensive now, or do I wait for my ally?
+- There is no mana, nor a limit on the number of cards per turn.
 - A card can be dragged from a **source field** to a **destination field**.
     - source fields: [ _Deck_ | _Hand_ | _Desk_ | _Trash_ ]
     - destination fields: [ _Deck_ | _Hand_ | _Desk_ | _Trash_ | or directly onto another card]
@@ -93,6 +100,9 @@ If a card has an effect, the effect must explicitly define: [ _Origin_ | *_Desti
 ## 2. Card construction
 The archetype and power of the card will be defined after its creation. The archetype is based on your personality and purpose, while the power is based on its weight in combat and potential impact.
 The rarity may change depending on the final power defined.
+
+### Rarity Definition
+Card creation is the game's customization point, where each player assembles their own card, and at the end of the creation process, receives a color and rarity according to its attributes and effects.
 
 ### Card Versions
     Normal colors
@@ -142,3 +152,8 @@ The rarity may change depending on the final power defined.
     - enterprise information: Forgepack™
     - rights information: © 2026 Forgepack S.A. All rights reserved.
 - Bottom-right: collection reference: Card number / Total cards in collection
+
+## Deck Construction
+- Maximum of 60 cards (there will be a rarity limit where the entire deck cannot exceed X stars in rarity)
+- Limit of four copies
+- Maximum of 2 archetypes per deck

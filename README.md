@@ -173,7 +173,11 @@ At the end of each round, the player who dominates the terrain wins.
 The game ends when one of the players runs out of life points or their deck.
 
 ## 6. Business Model
-Based on: collecting and meta-gaming
+Based on:
+- Collecting
+- Variable market due to meta-game
+- Players sell cards
+- Cosmetic monetization
 
 ## Roadmap
 

@@ -15,56 +15,106 @@
 ### 1.1. Complementary colors
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/complementaryColors.png" width="250"/></p>
 
-|**Cool**   |vs|   **Warm**| Emotional state vs Emotional state|
-|:----------|--|:----------|:--------------------------------|
-|🟣 Violet  |vs| 🟡 Yellow| Ambition    vs  Balance         |
-|🔵 Blue    |vs| 🟠 Orange| Isolation   vs  Collective      |
-|🟢 Green   |vs| 🔴 Red   | Progression vs  Explosion       |
+|**Cool**   |vs|   **Warm**|Emotional state|vs|Emotional state|Axis             |                                             |
+|:----------|--|:----------|--------------:|--|:--------------|:----------------|--------------------------------------------:|
+|🟣 Violet  |vs| 🟡 Yellow|Ambition       |vs|Balance        |Resource morality|**Self-interest** vs **Global equilibrium**  |
+|🔵 Blue    |vs| 🟠 Orange|Isolation      |vs|Community      |Social structure |**Independence** vs **Interdependence**      |
+|🟢 Green   |vs| 🔴 Red   |Progression    |vs|Explosion      |Time horizon     |**Inevitable growth** vs **Immediate impact**|
+|
 
-### 1.2. Emotional state
+|Color     |Core Principle   |Gains power by        |Wins through                       |
+|----------|-----------------|----------------------|-----------------------------------|
+|🟣 Violet |Sacrifice        |Losing resources      |Power through sacrifice            |
+|🔵 Blue   |Time manipulation|Controlling resolution|Denying opponent agency            |
+|🟢 Green  |Time accumulation|Waiting and scaling   |Power through time and accumulation|
+|🟡 Yellow |Stability        |Balancing resources   |Power through balance              |
+|🟠 Orange |Cooperation      |Increasing allies     |Multiplying value |
+|🔴 Red    |Risk conversion  |Acting immediately    |Overwhelming early pressure        |
 
-    🟣 Ambition: converts loss of `resource` into gain
-    🔵 Isolation: manipulates the flow of `time`
-    🟢 Persistence: converts `time` into power
-    🟡 Harmony: balances `resources`
-    🟠 Inspired: share `resources`
-    🔴 Unstable: Acelera risco
+### 1.2. Emotional states
 
-🟣 Violet: **Egocentrism**. Corruption, ambition and strategic loss for gain.
-> Resource manipulation
+> 🟣 Violet: Converting loss into an asymmetric strategic advantage.
 
-- cause: self sacrifices(life reduction, discard), cards accumulated in the trash
-- effect: remove card, eliminate, return from the trash, debuf, drains, transform debuff into buff, copy effect
+**Cause (what Violet willingly sacrifices):**
+- Lose life
+- Discard cards
+- Destroy own cards
+- Use cards in Trash as fuel
+- Accept negative effects voluntarily
 
-🔵 Blue: **Control**. Tactical tempo control and disruption.
->**Manipulate resolution order**
+**Effect (what Violet gains from sacrifice):**
+- Drain enemy stats or life
+- Reanimate cards from Trash
+- Convert debuffs into buffs
+- Copy or steal effects
+- Permanently weaken enemy cards
+- Trade temporary loss for permanent advantage
 
+🔵 Blue: **Control**. Isolation and tactical tempo control and disruption.
+>**Manipulate resolution order**, manipulates the flow of **_time_**.
+
+- cause: few cards
 - cause: change field, state change
 - effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)
     [ _annulment_ | _draw cards_ | _delay the opponent_ ]
 
-🟢 Green: **Brute force**. Power Growth, scaling strength and resource generation.
-> Effect that scales as it saves
+> 🟢 Green: Converts **_time_** into growth
 
-- cause: accumulated turns, saved resources, cards accumulated in the hand, turn number
-- effect: accelerate resource savings(progressive scaling, search the deck), high base power, time conversion into power
+**Cause (what Green accumulates):**
+- Retaining cards in hand
+- Saving resources
+- Accumulating turns
+- Long-term survival
 
-🟡 Yellow: **Order**. Balance and stability.
-> Global equilibrium
-- cause: trigger, live abouve X, intact cards.
-- effect: global effects, protection, health increase, recovery effect, clean effect.
+**Effect (how Green converts time into power):**
+- Progressive stat growth
+- Scaling effects over time
+- Accelerated resource generation
+- Increasing efficiency each turn
+- Search to cards
+- Overwhelming late-game strength
 
-🟠 Orange: **Enthusiasm**. Collective, inspiring and contagious. Grows stronger the more allies are present.
-> Effect that scales with the number of allies on the field
+> 🟡 Yellow: Preserves and equalizes **_resource_** states
 
+**Cause (what enables Yellow effects):**
+- Having intact cards
+- Maintaining stable life total
+- Having balanced board state
+- Protecting allies over time
+
+**Effect (how Yellow enforces equilibrium):**
+- Shield and protection effects
+- Heal and restore life
+- Remove negative effects (cleanse)
+- Prevent destruction or stat reduction
+- Apply global stabilizing effects
+- Normalize stat differences
+
+🟠 Orange: **Enthusiasm**. Collective, inspiring and contagious. Grows stronger the more allies are present. Effect that scales with the number of allies on the field. Inspire allies to increase collective resources.
+> Share **_resources_**
+- Maintaining board presence
+- cause: many cards
 - cause: number of allies on the field, on play in group, entering play alongside another card, trait synergy
 - effect: simultaneous activation, sharing of resources(buff allies on the field, distribute resources among multiple targets), activate a secondary effect on another card already in play, resource conversion, ripple effect
 
-🔴 Red: **Emotion**. Aggressive, emotion and chaos. Fast impact, high risk, high reward.
-> Effect that scales according to risk
+> 🔴 Red: Converts instability|risk into explosive power
 
-- cause: low life and defense, constant pressure, spend savings
-- effect: low cost, destruiction, direct damage, run over, force or prevent from attacking or defending, damage to multiple targets(NOT ALL).
+**Cause (what enables Red explosiveness):**
+- Discarding cards in hand
+- Spending resources aggressively, constant pressure
+- Low life total
+- Acting immediately instead of waiting
+
+**Effect (how Red converts risk into damage):**
+- Run over
+- Low cost cards
+- Direct damage to enemies
+- Destroy enemy cards
+- Attack multiple targets
+- Damage to multiple targets(NOT ALL).
+- Force combat interactions(attacking or defending)
+- Gain temporary power spikes
+- Trade survival for immediate impact
 
 ### 1.3. How each archetype relates
 

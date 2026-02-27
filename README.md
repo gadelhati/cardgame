@@ -25,7 +25,7 @@
 |Color     |Core Principle   |Gains power by        |Wins through                       |
 |----------|-----------------|----------------------|-----------------------------------|
 |🟣 Violet |Sacrifice        |Losing resources      |Power through sacrifice            |
-|🔵 Blue   |Time manipulation|Controlling resolution|Denying opponent agency            |
+|🔵 Blue   |Time manipulation|Controlling resolution/Denying opponent agency            |Power through independence and interaction denial|
 |🟢 Green  |Time accumulation|Waiting and scaling   |Power through time and accumulation|
 |🟡 Yellow |Stability        |Balancing resources   |Power through balance              |
 |🟠 Orange |Cooperation      |Increasing allies     |Multiplying value |
@@ -50,13 +50,24 @@
 - Permanently weaken enemy cards
 - Trade temporary loss for permanent advantage
 
-🔵 Blue: **Control**. Isolation and tactical tempo control and disruption.
+> 🔵 Blue: Power through independence and interaction denial.
 >**Manipulate resolution order**, manipulates the flow of **_time_**.
 
-- cause: few cards
-- cause: change field, state change
-- effect: evasion( _fly_ ), change effect target, postpone effect, see the top of the deck, moviment effect (relocate cards between fields)
-    [ _annulment_ | _draw cards_ | _delay the opponent_ ]
+**Cause (what enables Blue effects):**
+- Having fewer allies on the field
+- Acting alone
+- Changing positions or states
+- Avoiding direct interaction
+- State change
+
+**Effect (how Blue isolates and controls):**
+- Move cards between fields
+- Return cards to hand or deck
+- Prevent cards from interacting
+- Change targets of effects
+- Delay or reorder resolution
+- Become untargetable or inaccessible
+- Reveal or conceal information
 
 > 🟢 Green: Converts **_time_** into growth
 

@@ -22,18 +22,19 @@
 |🟢 Green   |vs| 🔴 Red   |Progression    |vs|Explosion      |Time horizon     |**Inevitable growth** vs **Immediate impact**|
 |
 
-|Color     |Core Principle   |Gains power by        |Wins through                       |
-|----------|-----------------|----------------------|-----------------------------------|
-|🟣 Violet |Sacrifice        |Losing resources      |Power through sacrifice            |
-|🔵 Blue   |Time manipulation|Controlling resolution/Denying opponent agency            |Power through independence and interaction denial|
-|🟢 Green  |Time accumulation|Waiting and scaling   |Power through time and accumulation|
-|🟡 Yellow |Stability        |Balancing resources   |Power through balance              |
-|🟠 Orange |Cooperation      |Increasing allies     |Multiplying value |
-|🔴 Red    |Risk conversion  |Acting immediately    |Overwhelming early pressure        |
+|Color     |Core Principle    |Gains power by         |Wins through                                     |
+|----------|------------------|-----------------------|-------------------------------------------------|
+|🟣 Violet |Sacrifice         |Losing resources       |Power through sacrifice                          |
+|🔵 Blue   |Tempo manipulation|Denying opponent agency|Power through independence and interaction denial|
+|🟢 Green  |Time accumulation |Waiting and scaling    |Power through time and accumulation              |
+|🟡 Yellow |Stability         |Balancing resources    |Power through balance                            |
+|🟠 Orange |Cooperation       |Increasing allies      |Power through connection and collective presence |
+|🔴 Red    |Risk conversion   |Acting immediately     |Overwhelming early pressure                      |
 
 ### 1.2. Emotional states
 
 > 🟣 Violet: Converting loss into an asymmetric strategic advantage.
+Passive: For every resource sacrificed in this round
 
 **Cause (what Violet willingly sacrifices):**
 - Lose life
@@ -44,14 +45,14 @@
 
 **Effect (what Violet gains from sacrifice):**
 - Drain enemy stats or life
-- Reanimate cards from Trash
+- Reanimate other card from Trash
 - Convert debuffs into buffs
 - Copy or steal effects
 - Permanently weaken enemy cards
 - Trade temporary loss for permanent advantage
 
-> 🔵 Blue: Power through independence and interaction denial.
->**Manipulate resolution order**, manipulates the flow of **_time_**.
+> 🔵 Blue: Manipulates when, how, and whether actions affect other cards.
+Passive: As long as this letter has not interacted with another
 
 **Cause (what enables Blue effects):**
 - Having fewer allies on the field
@@ -67,9 +68,9 @@
 - Change targets of effects
 - Delay or reorder resolution
 - Become untargetable or inaccessible
-- Reveal or conceal information
 
 > 🟢 Green: Converts **_time_** into growth
+Passive: For each turn this card remains on the field
 
 **Cause (what Green accumulates):**
 - Retaining cards in hand
@@ -78,14 +79,15 @@
 - Long-term survival
 
 **Effect (how Green converts time into power):**
+- Search to cards on the deck
 - Progressive stat growth
 - Scaling effects over time
 - Accelerated resource generation
 - Increasing efficiency each turn
-- Search to cards
 - Overwhelming late-game strength
 
 > 🟡 Yellow: Preserves and equalizes **_resource_** states
+Passive: As long as none of your cards have been destroyed in this round.
 
 **Cause (what enables Yellow effects):**
 - Having intact cards
@@ -101,19 +103,34 @@
 - Apply global stabilizing effects
 - Normalize stat differences
 
-🟠 Orange: **Enthusiasm**. Collective, inspiring and contagious. Grows stronger the more allies are present. Effect that scales with the number of allies on the field. Inspire allies to increase collective resources.
-> Share **_resources_**
-- Maintaining board presence
-- cause: many cards
-- cause: number of allies on the field, on play in group, entering play alongside another card, trait synergy
-- effect: simultaneous activation, sharing of resources(buff allies on the field, distribute resources among multiple targets), activate a secondary effect on another card already in play, resource conversion, ripple effect
+> 🟠 Orange: Effect that scales with the number of allies on the field.
+Passive: For each ally on the field in addition to this card
+
+**Cause (what enables Orange effects):**
+- Multiple allies on the field
+- Cards entering play near allies
+- Shared traits or archetypes
+- Coordinated sequencing of plays
+- Maintaining group cohesion
+- Trait synergy
+
+**Effect (how Orange builds community power):**
+- Grant buffs to multiple allies
+- Share resources between allies
+- Trigger effects when allies act
+- Activate chain reactions across cards
+- Strengthen allies when new ones enter play
+- Distribute gains across the group
 
 > 🔴 Red: Converts instability|risk into explosive power
+Passive: As long as your life is shorter than your opponent's.
 
 **Cause (what enables Red explosiveness):**
+- Adds explosion counters to your own cards.
+- When your character has the lowest health
+- Low life total
 - Discarding cards in hand
 - Spending resources aggressively, constant pressure
-- Low life total
 - Acting immediately instead of waiting
 
 **Effect (how Red converts risk into damage):**
@@ -122,14 +139,13 @@
 - Direct damage to enemies
 - Destroy enemy cards
 - Attack multiple targets
-- Damage to multiple targets(NOT ALL).
 - Force combat interactions(attacking or defending)
 - Gain temporary power spikes
 - Trade survival for immediate impact
 
 ### 1.3. How each archetype relates
 
-    Green naturally accumulates high ATK, it's the archetype that grows the most over time, so it dominates long rounds. Red tries to end rounds early with immediate pressure before Green scales up. Orange increases the collective ATK of allies, competing with Green in a different way. Blue manipulates the stack to remove or reposition opponent's cards before the final calculation. Violet drains opponent's ATK or converts enemy cards. Yellow protects its cards from being removed before the calculation.
+    Green naturally accumulates high ATK, it's the archetype that grows the most over time, so it dominates long rounds. Red tries to end rounds early with immediate pressure before Green scales up. Orange increases the collective ATK of allies. Blue manipulates the stack to remove or reposition opponent's cards before the final calculation. Violet drains opponent's ATK or converts enemy cards. Yellow protects its cards from being removed before the calculation.
 
 ## 2. Deck Construction
 - Deck of 40 at 60 cards (there will be a rarity limit where the entire deck cannot exceed X stars in rarity)
@@ -201,6 +217,7 @@ Card creation is the game's customization point, where each player assembles the
 - Starting hand of five cards
 - Mulligan 2 times with one less player each time
 - There is no limit to the number of turns per round; the player's strategy is the only limitation
+- The player who reaches a total score of 10 stars does not play again in that round.
 - If one player does not move a card, the other player cannot move either, and the round ends
 - The first player in each round alternates
 - There is no automatic card draw per round
@@ -245,3 +262,5 @@ Based on:
 - [ ] Modelo matematicamente robusto do sistema de atribuição de estrelas
 - [ ] Precisamos de algum marcador de influência sobre terreno dominado?
 - [ ] Simulador de como se encontra o meta
+- [ ] Aquisição e retenção de usuários
+- [ ] Loop de engajamento pós-lançamento

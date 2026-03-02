@@ -10,6 +10,10 @@
 ![React](https://img.shields.io/badge/React-19.1-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue?logo=typescript)
 
+The card game in question aims to be an exclusively digital CCG (Collectible Card Game), with its main strategic differentiator being the deep customization of cards.
+Creating a card will not be trivial or immediate: it is an intentionally challenging process. This controlled construction barrier adds value to the cards created.
+In addition, the system will allow the player, after investing in the construction of their own card, to trade it with other players.
+
 ## 1. Archetype List
 
 ### 1.1. Complementary colors
@@ -149,7 +153,7 @@ Passive: As long as your life is shorter than your opponent's.
 
 ## 2. Deck Construction
 - Deck of 40 at 60 cards (there will be a rarity limit where the entire deck cannot exceed X stars in rarity)
-- Limit of four copies
+- Limit of four copies per card
 - Maximum of 2 archetypes per deck
 
 ## 3. Card construction

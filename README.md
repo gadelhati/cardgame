@@ -38,27 +38,23 @@ In addition, the system will allow the player, after investing in the constructi
 ### 1.2. Emotional states
 
 > 🟣 Violet: Converting loss into an asymmetric strategic advantage.
-Passive: For every resource sacrificed in this round
 
 **Cause (what Violet willingly sacrifices):**
 - Lose life
 - Discard cards
 - Destroy own cards
-- Use cards in Trash as fuel
 - Accept negative effects voluntarily
 
 **Effect (what Violet gains from sacrifice):**
 - Drain enemy stats or life
 - Reanimate other card from Trash
 - Convert debuffs into buffs
-- Copy or steal effects
+- Steal effects
 - Permanently weaken enemy cards
-- Trade temporary loss for permanent advantage
 
 > 🔵 Blue: Manipulates when, how, and whether actions affect other cards.
-Passive: As long as this letter has not interacted with another
 
-**Cause (what enables Blue effects):**
+**Cause (what enables Blue control):**
 - Having fewer allies on the field
 - Acting alone
 - Changing positions or states
@@ -74,10 +70,9 @@ Passive: As long as this letter has not interacted with another
 - Become untargetable or inaccessible
 
 > 🟢 Green: Converts **_time_** into growth
-Passive: For each turn this card remains on the field
 
 **Cause (what Green accumulates):**
-- Retaining cards in hand
+- Retaining cards in field
 - Saving resources
 - Accumulating turns
 - Long-term survival
@@ -91,13 +86,15 @@ Passive: For each turn this card remains on the field
 - Overwhelming late-game strength
 
 > 🟡 Yellow: Preserves and equalizes **_resource_** states
-Passive: As long as none of your cards have been destroyed in this round.
 
 **Cause (what enables Yellow effects):**
 - Having intact cards
 - Maintaining stable life total
 - Having balanced board state
 - Protecting allies over time
+- Both players with the same number of cards
+- Same or close life
+- No cards destroyed this turn
 
 **Effect (how Yellow enforces equilibrium):**
 - Shield and protection effects
@@ -106,38 +103,39 @@ Passive: As long as none of your cards have been destroyed in this round.
 - Prevent destruction or stat reduction
 - Apply global stabilizing effects
 - Normalize stat differences
+- Share damage taken with enemies
+- Limit maximum damage
 
 > 🟠 Orange: Effect that scales with the number of allies on the field.
-Passive: For each ally on the field in addition to this card
 
-**Cause (what enables Orange effects):**
+**Cause (how allies enable orange effects):**
 - Multiple allies on the field
 - Cards entering play near allies
 - Shared traits or archetypes
 - Coordinated sequencing of plays
 - Maintaining group cohesion
 - Trait synergy
+- Being adjacent
 
-**Effect (how Orange builds community power):**
+**Effect (how orange builds community power):**
 - Grant buffs to multiple allies
 - Share resources between allies
 - Trigger effects when allies act
 - Activate chain reactions across cards
 - Strengthen allies when new ones enter play
 - Distribute gains across the group
+- Share damage taken with allies
 
 > 🔴 Red: Converts instability|risk into explosive power
-Passive: As long as your life is shorter than your opponent's.
 
-**Cause (what enables Red explosiveness):**
+**Cause (what did Red put at risk):**
 - Adds explosion counters to your own cards.
 - When your character has the lowest health
 - Low life total
 - Discarding cards in hand
-- Spending resources aggressively, constant pressure
 - Acting immediately instead of waiting
 
-**Effect (how Red converts risk into damage):**
+**Effect (how Red converts risk into immediate impact):**
 - Run over
 - Low cost cards
 - Direct damage to enemies

@@ -19,12 +19,11 @@ In addition, the system will allow the player, after investing in the constructi
 ### 1.1. Complementary colors
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/complementaryColors.png" width="250"/></p>
 
-|**Cool**   |vs|   **Warm**|Emotional state|vs|Emotional state|Axis             |                                             |
-|:----------|--|:----------|--------------:|--|:--------------|:----------------|--------------------------------------------:|
-|🟣 Violet  |vs| 🟡 Yellow|Ambition       |vs|Balance        |Resource morality|**Self-interest** vs **Global equilibrium**  |
-|🔵 Blue    |vs| 🟠 Orange|Isolation      |vs|Community      |Social structure |**Independence** vs **Interdependence**      |
-|🟢 Green   |vs| 🔴 Red   |Progression    |vs|Explosion      |Time horizon     |**Inevitable growth** vs **Immediate impact**|
-|
+|**Cool -⭐**|vs|**Warm +⭐**|Emotional state|vs|Emotional state|Axis               |                                             |
+|:-----------|--|:------------|--------------:|--|:--------------|:------------------|--------------------------------------------:|
+|🟣 Violet   |vs|🟡 Yellow   |Ambition       |vs|Balance        |A-Resource morality|**Self-interest** vs **Global equilibrium**  |
+|🔵 Blue     |vs|🟠 Orange   |Isolation      |vs|Community      |B-Social structure |**Independence** vs **Interdependence**      |
+|🟢 Green    |vs|🔴 Red      |Progression    |vs|Explosion      |C-Time horizon     |**Inevitable growth** vs **Immediate impact**|
 
 |Color     |Core Principle    |Gains power by         |Wins through                                     |
 |----------|------------------|-----------------------|-------------------------------------------------|
@@ -40,110 +39,122 @@ In addition, the system will allow the player, after investing in the constructi
 > 🟣 Violet: Converting loss into an asymmetric strategic advantage.
 
 **Cause (what Violet willingly sacrifices):**
-- Lose life
-- Discard cards
-- Destroy own cards
-- Accept negative effects voluntarily
+- -1⭐ Lose life (−2, 0, 0)
+- -1⭐ Discard cards
+- -2⭐ Destroy own cards
+- -1⭐ Accept negative effects voluntarily
 
 **Effect (what Violet gains from sacrifice):**
-- Drain enemy stats or life
-- Reanimate other card from Trash
-- Convert debuffs into buffs
-- Steal effects
-- Permanently weaken enemy cards
+
+|(A, B, C)  |Effect                         |
+|:---------:|-------------------------------|
+|(−2, 0, 0) |Drain enemy stats or life      |
+|(−2, 0, −1)|Reanimate other card from Trash|
+|(−2, 0, 0) |Convert debuffs into buffs     |
+|(−3, 0, 0) |Steal effects                  |
+|(−2, 0, −1)|Permanently weaken enemy cards |
 
 > 🔵 Blue: Manipulates when, how, and whether actions affect other cards.
 
 **Cause (what enables Blue control):**
-- Having fewer allies on the field
-- Acting alone
-- Changing positions or states
-- Avoiding direct interaction
-- State change
+- -1⭐ Having fewer allies on the field
+- -1⭐ Acting alone
+- -1⭐ Changing positions or states
+- -1⭐ Avoiding direct interaction
+- -1⭐ State change
 
 **Effect (how Blue isolates and controls):**
-- Move cards between fields
-- Return cards to hand or deck
-- Prevent cards from interacting
-- Change targets of effects
-- Delay or reorder resolution
-- Become untargetable or inaccessible
+|(A, B, C)    |Effect                               |
+|:-----------:|-------------------------------------|
+|(0, -2, 0)   |Move cards between fields            |
+|(0, -1, 0)   |Return cards to hand or deck         |
+|(0, -3, 0)   |Prevent cards from interacting       |
+|(0, -2, 0)   |Change targets of effects            |
+|(0, -2, -1)  |Delay or reorder resolution          |
+|(0, -2, -1)  |Become untargetable or inaccessible  |
 
 > 🟢 Green: Converts **_time_** into growth
 
 **Cause (what Green accumulates):**
-- Retaining cards in field
-- Saving resources
-- Accumulating turns
-- Long-term survival
+- -1xN⭐ Retaining cards in field for N turns
+- -1⭐ Saving resources
+- -1⭐ Accumulating turns
+- -1⭐ Long-term survival
 
 **Effect (how Green converts time into power):**
-- Search to cards on the deck
-- Progressive stat growth
-- Scaling effects over time
-- Accelerated resource generation
-- Increasing efficiency each turn
-- Overwhelming late-game strength
+|(A, B, C)    |Effect                                            |
+|:-----------:|--------------------------------------------------|
+|(0, 0, -1)   |Search to cards on the deck                       |
+|(0, 0, -2)   |Progressive stat growth                           |
+|(0, 0, -2)   |Accelerated resource generation                   |
+|(0, 0, -3)   |Increasing efficiency each turn                   |
+|(0, 0, -3)   |Scaling effects over time                         |
+|(0, 0, -1xN) |+N late-game strength                             |
 
 > 🟡 Yellow: Preserves and equalizes **_resource_** states
 
 **Cause (what enables Yellow effects):**
-- Having intact cards
-- Maintaining stable life total
-- Having balanced board state
-- Protecting allies over time
-- Both players with the same number of cards
-- Same or close life
-- No cards destroyed this turn
+- -1⭐ Having intact cards
+- -1⭐ Maintaining stable life total
+- -1⭐ Having balanced board state
+- -1⭐ Protecting allies over time
+- -1⭐ Both players with the same number of cards
+- -1⭐ Same or close life
+- -1⭐ No cards destroyed this turn
 
 **Effect (how Yellow enforces equilibrium):**
-- Shield and protection effects
-- Heal and restore life
-- Remove negative effects (cleanse)
-- Prevent destruction or stat reduction
-- Apply global stabilizing effects
-- Normalize stat differences
-- Share damage taken with enemies
-- Limit maximum damage
+|(A, B, C)    |Effect                               |
+|:-----------:|-------------------------------------|
+|(−2, 0, 0)   |Shield and protection effects        |
+|(−1xN, 0, 0) |Heal and restore N life              |
+|(−2, 0, 0)   |Remove negative effects (cleanse)    |
+|(−3, 0, 0)   |Prevent destruction or stat reduction|
+|(−2, 0, 0)   |Apply global stabilizing effects     |
+|(−2, 0, 0)   |Normalize stat differences           |
+|(−2, 0, 0)   |Share damage taken with enemies      |
+|(+1, 0, +1)  | Limit maximum damage                |
 
 > 🟠 Orange: Effect that scales with the number of allies on the field.
 
 **Cause (how allies enable orange effects):**
-- Multiple allies on the field
-- Cards entering play near allies
-- Shared traits or archetypes
-- Coordinated sequencing of plays
-- Maintaining group cohesion
-- Trait synergy
-- Being adjacent
+- -1xN⭐ N allies on the field
+- -1⭐ Cards entering play near allies
+- -1⭐ Shared traits or archetypes
+- -1⭐ Coordinated sequencing of plays
+- -1⭐ Maintaining group cohesion
+- -1⭐ Trait synergy
+- -1⭐ Being adjacent
 
 **Effect (how orange builds community power):**
-- Grant buffs to multiple allies
-- Share resources between allies
-- Trigger effects when allies act
-- Activate chain reactions across cards
-- Strengthen allies when new ones enter play
-- Distribute gains across the group
-- Share damage taken with allies
+|(A, B, C)    |Effect                                            |
+|:-----------:|--------------------------------------------------|
+|(0, +2, 0)   |Buffs to multiple allies                          |
+|(0, +2, 0)   |Share resources between allies                    |
+|(0, +3, 0)   |Activate chain reactions across cards             |
+|(0, +2, +1)  |Strengthen allies when new ones enter play        |
+|(0, +2, 0)   |Distribute gains across the group                 |
+|(0, +3, 0)   |Trigger effects when allies act                   |
+|(0, +3, 0)   |Share damage taken with allies                    |
 
 > 🔴 Red: Converts instability|risk into explosive power
 
 **Cause (what did Red put at risk):**
-- Adds explosion counters to your own cards.
-- When your character has the lowest health
-- Low life total
-- Discarding cards in hand
-- Acting immediately instead of waiting
+- -1⭐ Adds explosion counters to your own cards.
+- -1⭐ When your character has the lowest health
+- -1⭐ Low life total
+- -1⭐ Discarding cards in hand
+- -1⭐ Acting immediately instead of waiting
 
 **Effect (how Red converts risk into immediate impact):**
-- Run over
-- Low cost cards
-- Direct damage to enemies
-- Destroy enemy cards
-- Attack multiple targets
-- Force combat interactions(attacking or defending)
-- Gain temporary power spikes
-- Trade survival for immediate impact
+|(A, B, C)    |Effect                                            |
+|:-----------:|--------------------------------------------------|
+|(0, 0, +2)   |Run over                                          |
+|(0, 0, +2)   |Low cost cards                                    |
+|(0, 0, +2)   |Direct damage to enemies                          |
+|(0, 0, +2)   |Destroy enemy cards                               |
+|(0, 0, +3)   |Attack multiple targets                           |
+|(0, 0, +2)   |Force combat interactions(attacking or defending) |
+|(0, 0, +1)   |Gain temporary power spikes                       |
 
 ### 1.3. How each archetype relates
 
@@ -158,10 +169,24 @@ In addition, the system will allow the player, after investing in the constructi
 The archetype and power of the card will be defined after its creation. The archetype is based on your personality and purpose, while the power is based on its weight in combat and potential impact.
 The rarity may change depending on the final power defined.
 
+Each card generates a cause-and-effect vector.
+Each cause and each effect has a positive or negative weight on three structural axes (Resource morality, Social structure and Time horizon).
+The final vector sum determines:
+- Color (dominant archetype)
+- The number of stars (absolute total impact)
+
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/cardVector.png" width="250"/></p>
 
 ### Rarity Definition
 Card creation is the game's customization point, where each player assembles their own card, and at the end of the creation process, receives a color and rarity according to its attributes and effects.
+
+|Valor líquido  |Estrelas        |Raridade |
+|---------------|----------------|----------|
+|1 ou menos     |⭐              |Common    |
+|2              |⭐⭐           |Uncommon  |
+|3              |⭐⭐⭐         |Rare      |
+|4              |⭐⭐⭐⭐      |Epic      |
+|5              |⭐⭐⭐⭐⭐    |Legendary |
 
 ### Card Versions
     Normal colors

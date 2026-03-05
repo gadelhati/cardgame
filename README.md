@@ -19,7 +19,7 @@ In addition, the system will allow the player, after investing in the constructi
 ### 1.1. Complementary colors
 <p align="center"><img src="https://github.com/gadelhati/cardgame-front/blob/main/src/assets/complementaryColors.png" width="250"/></p>
 
-|**Cool -⭐**|vs|**Warm +⭐**|Emotional state|vs|Emotional state|Axis               |                                             |
+|**Cool < 0**|vs|**Warm > 0**|Emotional state|vs|Emotional state|Axis               |                                             |
 |:-----------|--|:------------|--------------:|--|:--------------|:------------------|--------------------------------------------:|
 |🟣 Violet   |vs|🟡 Yellow   |Ambition       |vs|Balance        |R-Resource morality|**Self-interest** vs **Global equilibrium**  |
 |🔵 Blue     |vs|🟠 Orange   |Isolation      |vs|Community      |S-Social structure |**Independence** vs **Interdependence**      |
@@ -129,7 +129,11 @@ In addition, the system will allow the player, after investing in the constructi
 
 ### Star Calculation
 
-    stars = min(5, |S| + |R| + |T|)
+    Impact Score = |S| + |T| + |R| <= 10
+    relevance in color definition = |S| + |R| + |T|
+        - O maior valor absoluto define o(s) eixo(s)
+        - O valores simétricos a(s) core(s)
+    number of stars = Σ(causas) + Σ(efeitos)
 
 The dominant color is the axis with the highest absolute value, on the pole matching its sign. If two axes tie, the card is dual-archetype.
 

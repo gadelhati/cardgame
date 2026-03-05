@@ -21,9 +21,9 @@ In addition, the system will allow the player, after investing in the constructi
 
 |**Cool -⭐**|vs|**Warm +⭐**|Emotional state|vs|Emotional state|Axis               |                                             |
 |:-----------|--|:------------|--------------:|--|:--------------|:------------------|--------------------------------------------:|
-|🟣 Violet   |vs|🟡 Yellow   |Ambition       |vs|Balance        |A-Resource morality|**Self-interest** vs **Global equilibrium**  |
-|🔵 Blue     |vs|🟠 Orange   |Isolation      |vs|Community      |B-Social structure |**Independence** vs **Interdependence**      |
-|🟢 Green    |vs|🔴 Red      |Progression    |vs|Explosion      |C-Time horizon     |**Inevitable growth** vs **Immediate impact**|
+|🟣 Violet   |vs|🟡 Yellow   |Ambition       |vs|Balance        |R-Resource morality|**Self-interest** vs **Global equilibrium**  |
+|🔵 Blue     |vs|🟠 Orange   |Isolation      |vs|Community      |S-Social structure |**Independence** vs **Interdependence**      |
+|🟢 Green    |vs|🔴 Red      |Progression    |vs|Explosion      |T-Time horizon     |**Inevitable growth** vs **Immediate impact**|
 
 |Color     |Core Principle    |Gains power by         |Wins through                                     |
 |----------|------------------|-----------------------|-------------------------------------------------|
@@ -37,124 +37,103 @@ In addition, the system will allow the player, after investing in the constructi
 ### 1.2. Emotional states
 
 > 🟣 Violet: Converting loss into an asymmetric strategic advantage.
-
 **Cause (what Violet willingly sacrifices):**
-- -1⭐ Lose life (−2, 0, 0)
-- -1⭐ Discard cards
-- -2⭐ Destroy own cards
-- -1⭐ Accept negative effects voluntarily
-
 **Effect (what Violet gains from sacrifice):**
 
-|(A, B, C)  |Effect                         |
-|:---------:|-------------------------------|
-|(−2, 0, 0) |Drain enemy stats or life      |
-|(−2, 0, −1)|Reanimate other card from Trash|
-|(−2, 0, 0) |Convert debuffs into buffs     |
-|(−3, 0, 0) |Steal effects                  |
-|(−2, 0, −1)|Permanently weaken enemy cards |
-
 > 🔵 Blue: Manipulates when, how, and whether actions affect other cards.
-
 **Cause (what enables Blue control):**
-- -1⭐ Having fewer allies on the field
-- -1⭐ Acting alone
-- -1⭐ Changing positions or states
-- -1⭐ Avoiding direct interaction
-- -1⭐ State change
-
 **Effect (how Blue isolates and controls):**
-|(A, B, C)    |Effect                               |
-|:-----------:|-------------------------------------|
-|(0, -2, 0)   |Move cards between fields            |
-|(0, -1, 0)   |Return cards to hand or deck         |
-|(0, -3, 0)   |Prevent cards from interacting       |
-|(0, -2, 0)   |Change targets of effects            |
-|(0, -2, -1)  |Delay or reorder resolution          |
-|(0, -2, -1)  |Become untargetable or inaccessible  |
 
 > 🟢 Green: Converts **_time_** into growth
-
 **Cause (what Green accumulates):**
-- -1xN⭐ Retaining cards in field for N turns
-- -1⭐ Saving resources
-- -1⭐ Accumulating turns
-- -1⭐ Long-term survival
-
 **Effect (how Green converts time into power):**
-|(A, B, C)    |Effect                                            |
-|:-----------:|--------------------------------------------------|
-|(0, 0, -1)   |Search to cards on the deck                       |
-|(0, 0, -2)   |Progressive stat growth                           |
-|(0, 0, -2)   |Accelerated resource generation                   |
-|(0, 0, -3)   |Increasing efficiency each turn                   |
-|(0, 0, -3)   |Scaling effects over time                         |
-|(0, 0, -1xN) |+N late-game strength                             |
 
 > 🟡 Yellow: Preserves and equalizes **_resource_** states
-
 **Cause (what enables Yellow effects):**
-- -1⭐ Having intact cards
-- -1⭐ Maintaining stable life total
-- -1⭐ Having balanced board state
-- -1⭐ Protecting allies over time
-- -1⭐ Both players with the same number of cards
-- -1⭐ Same or close life
-- -1⭐ No cards destroyed this turn
-
 **Effect (how Yellow enforces equilibrium):**
-|(A, B, C)    |Effect                               |
-|:-----------:|-------------------------------------|
-|(−2, 0, 0)   |Shield and protection effects        |
-|(−1xN, 0, 0) |Heal and restore N life              |
-|(−2, 0, 0)   |Remove negative effects (cleanse)    |
-|(−3, 0, 0)   |Prevent destruction or stat reduction|
-|(−2, 0, 0)   |Apply global stabilizing effects     |
-|(−2, 0, 0)   |Normalize stat differences           |
-|(−2, 0, 0)   |Share damage taken with enemies      |
-|(+1, 0, +1)  | Limit maximum damage                |
 
 > 🟠 Orange: Effect that scales with the number of allies on the field.
-
 **Cause (how allies enable orange effects):**
-- -1xN⭐ N allies on the field
-- -1⭐ Cards entering play near allies
-- -1⭐ Shared traits or archetypes
-- -1⭐ Coordinated sequencing of plays
-- -1⭐ Maintaining group cohesion
-- -1⭐ Trait synergy
-- -1⭐ Being adjacent
-
 **Effect (how orange builds community power):**
-|(A, B, C)    |Effect                                            |
-|:-----------:|--------------------------------------------------|
-|(0, +2, 0)   |Buffs to multiple allies                          |
-|(0, +2, 0)   |Share resources between allies                    |
-|(0, +3, 0)   |Activate chain reactions across cards             |
-|(0, +2, +1)  |Strengthen allies when new ones enter play        |
-|(0, +2, 0)   |Distribute gains across the group                 |
-|(0, +3, 0)   |Trigger effects when allies act                   |
-|(0, +3, 0)   |Share damage taken with allies                    |
 
 > 🔴 Red: Converts instability|risk into explosive power
-
 **Cause (what did Red put at risk):**
-- -1⭐ Adds explosion counters to your own cards.
-- -1⭐ When your character has the lowest health
-- -1⭐ Low life total
-- -1⭐ Discarding cards in hand
-- -1⭐ Acting immediately instead of waiting
-
 **Effect (how Red converts risk into immediate impact):**
-|(A, B, C)    |Effect                                            |
-|:-----------:|--------------------------------------------------|
-|(0, 0, +2)   |Run over                                          |
-|(0, 0, +2)   |Low cost cards                                    |
-|(0, 0, +2)   |Direct damage to enemies                          |
-|(0, 0, +2)   |Destroy enemy cards                               |
-|(0, 0, +3)   |Attack multiple targets                           |
-|(0, 0, +2)   |Force combat interactions(attacking or defending) |
-|(0, 0, +1)   |Gain temporary power spikes                       |
+
+## Causes
+|🟣R🟡|🔵S🟠|🟢T🔴| Cause |
+|:----:|:----:|:----:|-------|
+|  −2  |   0  |   0  | Lose life |
+|  −1  |   0  |  +1  | Discard card from hand |
+|  −2  |   0  |  +1  | Destroy own card |
+|  −1  |   0  |   0  | Accept negative effect voluntarily |
+|   0  |  −2  |   0  | Be alone on the field |
+|   0  |  −1  |  −1  | Not have interacted this turn |
+|   0  |  −1  |  +1  | Change position/state |
+|   0  |   0  |  −2  | Keep card on field for N turns |
+|   0  |   0  |  −1  | Have X cards in hand |
+|   0  |   0  |  −2  | Save resources without spending |
+|   0  |   0  | −1xN | Accumulating N turns |
+|  +1  |   0  |  −1  | No card destroyed this turn |
+|  +2  |   0  |   0  | Stable life (≥ starting life) |
+|  +1  |  +1  |   0  | Balanced board (same number of cards) |
+|   0  |  +2  |   0  | Have X allies on the field |
+|   0  |  +1  | + 1  | Ally entering play |
+|   0  |  +2  |   0  | Active trait synergy |
+|  −1  |   0  |  +1  | Have less life than opponent |
+|   0  |   0  |  +2  | Spend resources aggressively |
+|  −1  |   0  |  +2  | Discard cards from hand (pressure) |
+
+---
+
+## Effects
+|🟣R🟡|🔵S🟠|🟢T🔴| Effect |
+|:----:|:----:|:----:|--------|
+|  −2  |   0  |   0  | Drain enemy ATK/DEF |
+|  −2  |   0  |  −1  | Reanimate card from Trash |
+|  −2  |   0  |   0  | Convert debuff into buff |
+|  −3  |   0  |   0  | Steal enemy card effect |
+|  −2  |   0  |  −1  | Permanently weaken enemy card |
+|  +2  |   0  |   0  | Shield / protect card |
+| +1xN |   0  |   0  | Heal N life |
+|  +2  |   0  |   0  | Cleanse debuff |
+|  +3  |   0  |   0  | Prevent destruction |
+|  +2  |   0  |   0  | Normalize stat difference |
+|  +1  |   0  |  +1  | Limit maximum damage |
+|   0  |  −1  |   0  | Move card between fields |
+|   0  |  −2  |   0  | Return card to hand/deck |
+|   0  |  −3  |   0  | Prevent card from interacting |
+|   0  |  −2  |   0  | Redirect effect target |
+|   0  |  −2  |  −1  | Become untargetable |
+|   0  |  −2  |  −1  | Delay/reorder effect resolution |
+|   0  |   0  |  −2  | Progressive ATK/DEF growth |
+|   0  |   0  | −1xN | +N late-game strength |
+|   0  |   0  |  −1  | Search card from deck |
+|   0  |   0  |  −2  | Accelerated resource generation |
+|   0  |   0  |  −3  | Increasing efficiency per turn |
+|   0  |  +2  |   0  | Buff multiple allies |
+|   0  |  +2  |   0  | Share resources between allies |
+|   0  |  +3  |   0  | Activate chain reaction |
+|   0  |  +2  |  +1  | Strengthen ally on entry |
+|   0  |  +2  |   0  | Distribute gains across group |
+|   0  |  +3  |   0  | Trigger effects when allies act |
+|   0  |  +3  |   0  | Share damage taken with allies |
+|   0  |   0  |  +2  | Run over |
+|   0  |   0  |  +2  | Low cost cards |
+|   0  |   0  |  +2  | Direct damage to enemy |
+|   0  |   0  |  +2  | Destroy enemy card |
+|   0  |   0  |  +3  | Attack multiple targets |
+|   0  |   0  |  +2  | Force combat interaction |
+|   0  |   0  |  +1  | Temporary power spike |
+
+
+### Star Calculation
+
+    stars = min(5, |S| + |R| + |T|)
+
+The dominant color is the axis with the highest absolute value, on the pole matching its sign. If two axes tie, the card is dual-archetype.
+
+---
 
 ### 1.3. How each archetype relates
 
